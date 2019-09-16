@@ -14,7 +14,7 @@ class Engine:
         self.password = password
         self.host = host
         self.db_name = db_name
-        self.url = str(dailect)+'+'+str(driver)+'://'+str(user_name)+':'+str(password)+'@'+str(host)+'/'+str(db_name)+str('?charset=utf8mb4')
+        self.url = str(dailect)+'+'+str(driver)+'://'+str(user_name)+':'+str(password)+'@'+str(host)+'/'+str(db_name)+'?charset=utf8mb4'
         self.engine = create_engine(self.url, echo=False)
     
     # Setup sqlite connection
