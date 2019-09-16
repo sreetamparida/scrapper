@@ -54,7 +54,7 @@ summary = soup.find("table",{'id':'theDataTable'})
 
 
 colum = ['Row','Saved','Status','Study Title','COnditions','Interventions','Study Type','Phase','Sponsor','Funders Type'
-          'Study Design','Outcome Measures',' ','Number Enrolled','Sex','Age','NCT number','Other Id', 'Title Acro','Study Start'
+          'Study Design','Outcome Measures','Outcome_measures2','Number Enrolled','Sex','Age','NCT number','Other Id', 'Title Acro','Study Start'
           ,'Primary Completion','Study COmpletion', 'First Posted', 'Last Posted', 'Results', 'Location', 'Study Documents']
 
 
