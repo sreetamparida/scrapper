@@ -75,7 +75,7 @@ except:
 # In[25]:
 
 
-up_eng.uploadData(data,'Your_name')
+up_eng.uploadData(data,'Med_table')
 
 print('DATA UPLOADED SUCCESSFULLY')
 
